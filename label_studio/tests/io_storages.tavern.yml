@@ -634,6 +634,8 @@ stages:
         title: Microsoft Azure
       - name: redis
         title: Redis
+      - name: pachyderm
+        title: Pachyderm
       - name: localfiles
         title: Local files
 
