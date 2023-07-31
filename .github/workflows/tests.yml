@@ -6,6 +6,7 @@ on:
       head_sha:
         required: true
         type: string
+  workflow_dispatch:
 
 env:
   NODE: '18'
