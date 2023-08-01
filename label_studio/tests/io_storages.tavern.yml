@@ -1498,4 +1498,13 @@ stages:
     save:
       json:
         project_pk: id
-    status_code: 400
+    status_code: 201
+- name: stage
+  request:
+    data:
+      project: '{project_pk}'
+      title: Testing Pachyderm storage
+    method: POST
+    url: '{django_live_url}/api/storages/pachyderm/validate'
+  response:
+    status_code: 200
