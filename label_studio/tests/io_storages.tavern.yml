@@ -1498,4 +1498,4 @@ stages:
     save:
       json:
         project_pk: id
-    status_code: 201
+    status_code: 400
